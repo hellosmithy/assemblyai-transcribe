@@ -11,7 +11,9 @@
   "license": "ISC",
   "packageManager": "pnpm@10.4.1",
   "dependencies": {
-    "assemblyai": "^4.9.0"
+    "assemblyai": "^4.9.0",
+    "consola": "^3.4.0",
+    "minimist": "^1.2.8"
   },
   "devDependencies": {
     "@types/bun": "latest"
