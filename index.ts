@@ -1,3 +1,5 @@
+#! /usr/bin/env bun
+
 import { AssemblyAI } from "assemblyai";
 import consola from 'consola';
 import fs from "fs/promises";
@@ -15,7 +17,7 @@ if (!ASSEMBLY_API_KEY) {
 }
 
 if (!pathOrUrl || !outFile) {
-    consola.fail("Usage: bun run index.ts <path_or_url> <output_file>");
+    consola.fail("Usage: assemblyai <path_or_url> <output_file>");
     process.exit(1);
 }
 
