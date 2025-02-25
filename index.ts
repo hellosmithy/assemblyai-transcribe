@@ -23,7 +23,7 @@ if (!pathOrUrl || !outFile) {
 
 const language = await consola.prompt("Select the language(s) to be transcribed", {
     type: "select",
-    options: ["en", "en", "en_au", "en_uk", "en_us", "ja"]
+    options: ["en", "ja"]
 });
 
 const diarize = await consola.prompt("Enable speaker diarization?", {
